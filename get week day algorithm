@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+var txt=["SUN","MON","TUE","WED","THU","FRI","SAT"];
+var d= new Date();
+var month=d.getMonth();
+var day=d.getDay();
+var date=d.getDate(); 
+for (var i=1;i<31;i++){
+x=((i-date+70)%7+day)%7;
+document.write("week day of "+i+" / "+(month+1)+" is "+txt[x]+"<br>");
+}
+</script>
+
+</body>
+</html>
+
