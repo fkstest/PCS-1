@@ -39,5 +39,11 @@ function print_header($title) {
             </div>
         </div>
     </nav>
+    <main class="container-fluid">
+        <div class="hero text-center">
+            <h2>Use Meetable to arrage meet-ups with your friends!</h2>
+            <a class="btn btn-primary btn-lg">Create an event now!</a>
+        </div>
+    </main>
 <?php
 }

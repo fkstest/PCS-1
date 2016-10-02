@@ -1,0 +1,5 @@
+.hero {
+    height: 80vh;
+    background: url(../images/urban_art.jpg);
+    background-size:cover;
+}
